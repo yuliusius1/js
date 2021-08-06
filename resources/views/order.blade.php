@@ -31,7 +31,7 @@
   <div class="continer-fluid banner-section">
     <div class="banner-container-order">
       <div class="background-image-order">
-        <img src="assets/img/background1.jpeg" class="image-banner-order">
+        <img src="{{ asset('assets/img/background1.jpeg') }}" class="image-banner-order">
       </div>
       <div class="layer-background-order">
         <div class="d-flex h-100 flex-column align-items-center justify-content-center">

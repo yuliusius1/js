@@ -14,7 +14,55 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/ius', function () {
+    return view('ius.index');
+});
+
+Route::get('/index-2', function () {
+    return view('ius.index-2');
+});
+
+Route::get('/404', function () {
+    return view('ius.404');
+});
+
+Route::get('/about-us', function () {
+    return view('ius.about-us');
+});
+
+Route::get('/blog-grid', function () {
+    return view('ius.blog-grid');
+});
+
+Route::get('/blog-single', function () {
+    return view('ius.blog-single');
+});
+
+Route::get('/contact', function () {
+    return view('ius.contact');
+});
+
+Route::get('/mail-success', function () {
+    return view('ius.mail');
+});
+
+Route::get('/pricing', function () {
+    return view('ius.pricing');
+});
+
+Route::get('/reset-password', function () {
+    return view('ius.reset-password');
+});
+
+Route::get('/signin', function () {
+    return view('ius.signin');
+});
+
+Route::get('/signup', function () {
+    return view('ius.signup');
 });
 
 Route::get('/checkout', function () {

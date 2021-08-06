@@ -52,7 +52,7 @@
     <!-- <div class="bg-white order shadow"> -->
         <!-- Menu Makanan -->
         <h5 class="nama-menu mt-5 mx-5">Menu Makanan</h5>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-sm-1 g-4 mx-4 mb-5">
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-sm-2 g-4 mx-4 mb-5">
             <div class="col">
                 <div class="card h-100 ">
                     <img src="{{ asset('assets/img/indomie_goreng.jpg') }}" class="card-img-top p-3" alt="Nama barang">
